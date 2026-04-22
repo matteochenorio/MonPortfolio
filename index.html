@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | CHENORIO Matteo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div class="logo">RD<span>.</span></div>
+        <nav>
+          <a href="#accueil">Accueil</a>
+          <a href="#parcours">Parcours</a>
+          <a href="#competences">Competences</a>
+          <a href="#projets">Projets</a>
+          <a href="#veille">Veille</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="glass-card">
+        <div class="hero-content">
+          <div class="profile-area">
+            <img src="img/photo.png" alt="Photo de profil" class="avatar" />
+          </div>
+          <div class="text-area">
+            <h1>CHENORIO <span>Matteo</span></h1>
+            <p class="tagline">Futur Développeur d'Applications (SLAM)</p>
+            <div class="cta-group">
+              <a href="docs/cv.pdf" class="btn-primary">Mon CV</a>
+              <a href="#projets" class="btn-secondary">Voir mes projets</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </section>
+
+    <section id="parcours" class="timeline-section">
+      <h2 class="section-title">Mon <span>Parcours</span></h2>
+
+      <div class="timeline">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item left">
+          <div class="timeline-dot"><span class="icon">🏫</span></div>
+          <div class="timeline-card">
+            <h3>Baccalauréat STI2D</h3>
+            <h4>Lycée Camille Claudel, Blain</h4>
+            <span class="date">2020 - 2023</span>
+            <p>
+              Bac STI2D (Sciences et Technologies de l'Industrie et du
+              Développement Durable) - Mention Bien
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="timeline-dot"><span class="icon">🎓</span></div>
+          <div class="timeline-card">
+            <h3>BUT INFORMATIQUE</h3>
+            <h4>IUT Nantes</h4>
+            <span class="date">2023 - 2024</span>
+          </div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="timeline-dot"><span class="icon">💼</span></div>
+          <div class="timeline-card">
+            <h3>BTS SIO option SLAM</h3>
+            <h4>Lycée Carcouët Nantes</h4>
+            <span class="date">2024 - present</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="skills-section">
+      <h2 class="section-title">Mes <span>Compétences</span></h2>
+
+      <div class="skills-container">
+        <div class="skills-table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Domaine</th>
+                <th>Technologies</th>
+                <th>Niveau</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Développement Web</strong></td>
+                <td>HTML5, CSS , PHP (Laravel)</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 60%"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Application Mobile / Desktop</strong></td>
+                <td>C#, Java (Android)</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 70%"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Bases de données</strong></td>
+                <td>MySQL, SQL Server</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Outils & Gestion</strong></td>
+                <td>Git/GitHub, Docker, Méthodes Agiles (Scrum)</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="download-official">
+          <p>Pour le jury d'examen :</p>
+          <a href="docs/Tableau-de-Synthese-E4.xlsx" class="btn-download">
+            📊 Télécharger mon Tableau de Synthèse (Excel)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="projects-section">
+      <h2 class="section-title">Mes <span>Projets</span></h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="img/projet-stock.jpg" alt="Gestion de stock" />
+            <div class="project-overlay">
+              <a
+                href="https://github.com/ton-pseudo/nom-du-repo"
+                target="_blank"
+                class="view-code"
+                >Voir sur GitHub</a
+              >
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="tag">C#</span>
+              <span class="tag">SQL Server</span>
+              <span class="tag">Desktop</span>
+            </div>
+            <h3>Gestionnaire de Stock GS</h3>
+            <p>
+              Développement d'une application lourde permettant la gestion des
+              entrées/sorties et le suivi des fournisseurs.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="img/projet-web.jpg" alt="Site Web" />
+            <div class="project-overlay">
+              <a
+                href="https://github.com/ton-pseudo/repo-web"
+                target="_blank"
+                class="view-code"
+                >Voir sur GitHub</a
+              >
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MVC</span>
+              <span class="tag">Laravel</span>
+            </div>
+            <h3>Plateforme E-commerce</h3>
+            <p>
+              Réalisation d'un site de vente en ligne avec panier, gestion des
+              commandes et interface administrateur.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="img/projet-stage.jpg" alt="Mission en entreprise" />
+            <div class="project-overlay">
+              <span class="confidential">Code Privé (Entreprise)</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">API</span>
+            </div>
+            <h3>Migration d'API REST</h3>
+            <p>
+              Mission en stage : Optimisation des requêtes entre le front-end et
+              la base de données interne.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="veille" class="veille-section">
+      <h2 class="section-title">Veille <span>Technologique</span></h2>
+
+      <div class="veille-container">
+        <div class="veille-intro">
+          <div class="veille-badge">Sujet de veille</div>
+          <h3>
+            L'évolution de l'Intelligence Artificielle dans le développement
+            Full-Stack
+          </h3>
+          <p>
+            Ma veille porte sur l'intégration des outils d'IA (Copilot, LLM,
+            Agents) dans le workflow quotidien du développeur SLAM et leur
+            impact sur la productivité.
+          </p>
+        </div>
+
+        <div class="tools-grid">
+          <div class="tool-card">
+            <span class="tool-icon">📱</span>
+            <h4>Feedly</h4>
+            <p>
+              Agrégation de flux RSS de sites comme Journal du Net et
+              Developpez.com.
+            </p>
+          </div>
+          <div class="tool-card">
+            <span class="tool-icon">📩</span>
+            <h4>Google Alerts</h4>
+            <p>
+              Alertes par mots-clés : "Framework PHP", "Sécurité API", "IA Dev".
+            </p>
+          </div>
+          <div class="tool-card">
+            <span class="tool-icon">🐦</span>
+            <h4>X (Twitter) & LinkedIn</h4>
+            <p>
+              Suivi de comptes d'experts et de technos (Laravel, Microsoft Dev).
+            </p>
+          </div>
+        </div>
+
+        <div class="veille-footer">
+          <a
+            href="docs/Dossier-Veille-Oudard.pdf"
+            class="btn-primary"
+            target="_blank"
+            >📄 Lire mon dossier de veille</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
