@@ -537,3 +537,36 @@ td {
 .veille-footer {
   text-align: center;
 }
+
+.tag-java { background: #fff4e5 !important; color: #e67e22 !important; } /* Orange Java */
+.tag-sec { background: #ebf5ff !important; color: #2980b9 !important; }  /* Bleu Sécurité */
+.tag-data { background: #f3e5f5 !important; color: #8e44ad !important; } /* Violet Data */
+
+/* Couleurs spécifiques aux badges - LARAVEL */
+.tag-laravel { background: #ffebeb !important; color: #ff2d20 !important; } /* Rouge Laravel */
+.tag-php { background: #f0f1f8 !important; color: #4f5b93 !important; }     /* Bleu PHP */
+.tag-db { background: #e8f5e9 !important; color: #2e7d32 !important; }      /* Vert SQL */
+.tag-arch { background: #fff3e0 !important; color: #ef6c00 !important; }    /* Orange Architecture */
+
+.project-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.project-points {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.85rem;
+    color: #2d3436;
+}
+
+.project-points li {
+    margin-bottom: 5px;
+}
+
+/*GSB*/
+.tag-csharp { background: #e8dbff !important; color: #68217a !important; } /* Violet Visual Studio */
+.tag-sql { background: #e1f5fe !important; color: #0277bd !important; }    /* Bleu Database */
+.tag-mvc { background: #fff9c4 !important; color: #fbc02d !important; }    /* Jaune Architecture */
