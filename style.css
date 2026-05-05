@@ -570,3 +570,50 @@ td {
 .tag-csharp { background: #e8dbff !important; color: #68217a !important; } /* Violet Visual Studio */
 .tag-sql { background: #e1f5fe !important; color: #0277bd !important; }    /* Bleu Database */
 .tag-mvc { background: #fff9c4 !important; color: #fbc02d !important; }    /* Jaune Architecture */
+
+header {
+    width: 100%;
+    background-color: #2c3e50; /* Couleur sombre et pro (type GSB) */
+    position: fixed;           /* Reste en haut au scroll */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #3498db; /* Rappel du bleu SLAM */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-container {
+    max-width: 1200px;         /* Aligne le contenu avec le reste du site */
+    margin: 0 auto;            /* Centre la nav dans le bandeau */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #3498db;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+/* IMPORTANT : Empêche le contenu du site de passer sous le bandeau */
+body {
+    padding-top: 80px; 
+}
