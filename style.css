@@ -537,3 +537,83 @@ td {
 .veille-footer {
   text-align: center;
 }
+
+.section-veille {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.section-title,
+.subtitle,
+.veille-intro {
+  text-align: center; /* Force l'alignement au milieu pour le titre, sous-titre et texte */
+  width: 100%; /* S'assure que l'élément prend toute la largeur */
+}
+
+.subtitle {
+  display: block; /* Force le sous-titre à se comporter comme un bloc pour mieux le centrer */
+  margin: 10px auto 30px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.veille-intro blockquote {
+  display: inline-block; /* Permet au bloc de citation de rester centré par rapport au texte */
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+  border-left: 5px solid #2980b9;
+  border-right: 5px solid #2980b9; /* On ajoute un bord à droite pour le style "bulle" centrée */
+}
+
+.veille-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.veille-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border-top: 5px solid #2980b9; /* Bleu SLAM */
+}
+
+.badge {
+  background: #e1f5fe;
+  color: #0277bd;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.veille-card h3 {
+  margin-top: 15px;
+  color: #2c3e50;
+}
+
+.veille-card ul {
+  margin-top: 15px;
+  padding-left: 20px;
+  font-size: 0.95rem;
+}
+
+.veille-outils {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.outils-list span {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
